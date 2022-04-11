@@ -3,11 +3,15 @@
 
     $firstName = "Jane";  // string type variable
     $lastName = "Doe"; // string type variable
-    $age = 35;  //integer type variable
-    $married = true:  //boolean type variable
+    $age = 35;  // integer type variable
+    $married = true;  // boolean type variable
     $childrenNames = array("Alice", "Bob");  //array type variable
-    
 
+    $fullName = $firstName . " " . $lastName;  // concatenation operator
+    $dogYears = $age/7;  // arithmetic operator
+    $isAdult = $dogYears > 4;  // comparison operator
+    $isSettled = $isAdult and $married;  // integer type variable
+    
 
 
 ?>
