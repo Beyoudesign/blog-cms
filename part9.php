@@ -29,6 +29,9 @@
     $isSettled = getIsSettled($age, $married);  // using variables
     $isSettled = getIsSettled(5, false);   // using values
 
+    echo $fullName;
+    echo "<h1>Hello World</h1>"
+
 ?>
 
 
