@@ -47,6 +47,16 @@ $postDetails = array('title' => 'The Art of Mixology',
     }
 ?>
 
+<?php
+    // Post details contains all the data to generate the blog from
+    $postDetails = getPostDetailsFromDatabase();
+?>
+<h2> <?php echo $postDetails["title"]; ?> </h2>
+<h3> <?php echo $postDetails["author"]; ?> </h3>
+<h4> <?php echo $postDetails["date"]; ?> </h4>
+<p> <?php echo $postDetails["content"]; ?> </p>
+<
+
     <main>
         <h2>The Art of Mixology</h2>
 
