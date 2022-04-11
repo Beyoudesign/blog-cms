@@ -1,16 +1,6 @@
-<html>
-
-<head>
-
-<title>
-    Chelsea Johnson
-</title>
-<link rel="stylesheet" type="text/css" href="style.php"/>
-</head>
-
-<body>
-    <div id="header">
-        <h1>Chelsea's Bartending Blog</h1>
+<?php
+    include "header.php";
+?>
     
 <nav>
     <div id="navigation">
