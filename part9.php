@@ -32,7 +32,7 @@
     echo $fullName;
     echo "<h1>Hello World</h1>"
 
-    if ($isSettled) {
+    if($isSettled) {
         echo $fullName . " is settled.";
     } else {
         echo $fullName . " is not settled.";
