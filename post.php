@@ -4,6 +4,13 @@
     include "footer.php";
 ?>
 
+<?php
+$postDetails = array('title' => 'The Art of Mixology',
+                    'content' => 'My first blog post',
+                    'date' => '01/01/2018',
+                    'author' => 'Chelsea Johnson');
+?>
+
 <html>
 
 <head>
