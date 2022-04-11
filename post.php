@@ -7,7 +7,7 @@
 <?php
 $postDetails = array('title' => 'The Art of Mixology',
                     'content' => 'My first blog post',
-                    'date' => '01/01/2018',
+                    'date' => '04/10/2022',
                     'author' => 'Chelsea Johnson');
 ?>
 
@@ -34,6 +34,18 @@ $postDetails = array('title' => 'The Art of Mixology',
 </nav>
     
     
+<?php
+    function getPostDetailsFromDatabase() {
+        // TO DO in Module 4
+        // get this data from a database instead of hardcoding it
+        $postDetails = array('title' => 'The Art of Mixology',
+                             'content' => 'My first blog post',
+                             'date' => '04/10/2022',
+                             'author' => 'Chelsea Johnson');
+        
+        return $postDetails;
+    }
+?>
 
     <main>
         <h2>The Art of Mixology</h2>
