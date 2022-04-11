@@ -15,6 +15,14 @@
     <main>
         
         <ul>
+            <?php
+                $postTitles = getPostTitlesFromDatabase();
+
+                foreach($postTitles as $postTitle) {
+                    echo "<li><a href='post.php'>" . $postTitle . "</a></li>";
+                }
+            ?>
+
             <li><a href="post.php">The Art of Mixology</a></li>
             <li><a href="post.php">Perfecting your Counts</a></li>
             <li><a href="post.php">Balance is Key</a></li>
