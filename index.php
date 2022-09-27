@@ -4,6 +4,16 @@
     include "footer.php";
     
 ?>
+
+<html>
+
+<head>
+
+<title>
+    Chelsea Johnson
+</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
     
 <?php
     function getPostTitlesFromDatabase() {
