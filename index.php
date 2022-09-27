@@ -21,9 +21,7 @@
     function getPostTitlesFromDatabase() {
         // TO DO in Module 4
         // get this data from a database instead of hardcoding it
-        $postTitles = array("The Art of Mixology", "Perfecting your Counts", "Balance is Key");
-        return $postTitles;
-    }
+     
 ?>
     <main>
         
