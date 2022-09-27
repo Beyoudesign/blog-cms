@@ -38,6 +38,13 @@
                              'author' => 'Chelsea Johnson');
         
         return $postDetails;
+
+        $postDetails = array('title' => 'Perfecting your Counts',
+                             'content' => 'How to pour the perfect drink',
+                             'date' => '09/27/2022',
+                             'author' => 'Chelsea Johnson');
+        
+        return $postDetails;
     }
 ?>
 
