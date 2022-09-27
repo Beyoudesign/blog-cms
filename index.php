@@ -16,6 +16,17 @@
 </head>
 
 <body>
+    <div id="header">
+        <h1>Chelsea's Bartending Blog</h1>
+    
+<nav>
+    <div id="navigation">
+    <a href="index.php">HOME</a>
+    <a href="post.php">BLOGS</a>
+    <a href="post_submission.php">NEW BLOG POSTS</a>
+</div>
+</nav>
+    </div>
     
 <?php
     function getPostTitlesFromDatabase() {
