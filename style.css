@@ -125,7 +125,7 @@ input[type=submit] {
 
 
 a:link{text-decoration: none; color: #000000; margin: 30px;/*link that hasn't been visited*/}
-a:visited{text-decoration: none; color: #da7c7c; margin: 30px;/*once page is visited*/}
+a:visited{text-decoration: none; color: #2038ef; margin: 30px;/*once page is visited*/}
 a:active{text-decoration: underline; color: #ffffff; margin: 30px;/*link that is selected*/}
 a:hover{text-decoration: underline; color: #ffffff; margin: 30px;/*when mouse is over link*/}
 
