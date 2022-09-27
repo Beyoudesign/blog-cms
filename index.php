@@ -21,9 +21,7 @@
     function getPostTitlesFromDatabase() {
         // TO DO in Module 4
         // get this data from a database instead of hardcoding it
-        $postTitles = array("Blog Post 1", "Blog Post 2", "Blog Post 3");
-        return $postTitles;
-    }
+        
 ?>
     <main>
         
