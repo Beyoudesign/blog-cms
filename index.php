@@ -2,6 +2,7 @@
     include "header.php";
     include "navigation.php";
     include "footer.php";
+    include "post.php";
 ?>
     
 <?php
