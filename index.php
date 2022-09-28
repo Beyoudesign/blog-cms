@@ -39,7 +39,6 @@
         $postTitles = array("The Art of Mixology", "Perfecting your Counts", "Balance is Key");
         return $postTitles;
 
-        <?php
     function getPostDetailsFromDatabase(){
             //Get the post title
             $postTitle = rawurldecode($_GET"The Art of Mixology");
@@ -54,9 +53,8 @@
             $postDetails = mysqli_fetch_assoc($result);
             return $postDetails;
         }
-        ?>
-    }
 ?>
+
     <main>
         
         <ul>
