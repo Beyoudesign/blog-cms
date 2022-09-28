@@ -1,8 +1,4 @@
 <?php
-    include_once 'includes2/dbh.inc.php';
-?>
-
-<?php
     include "header.php";
     include "navigation.php";
     include "footer.php";
@@ -50,8 +46,9 @@
         //Get the post title
         $postTitle = rawurldecode($_GET"The Art of Mixology");
 
+        include_once 'includes2/dbh.inc.php'; //Connect to the database
+
         //Get the post that matches the postTitle
-        include_once'db_connect.php';
         $sql = "SELECT * FROM posts WHERE title='" .$postTitle ."'";
         $result = mysqli_query($conn,$sql);
 
