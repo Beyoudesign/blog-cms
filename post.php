@@ -33,9 +33,9 @@
         // TO DO in Module 4
         // get this data from a database instead of hardcoding it
         $postDetails = array('title' => 'The Art of Mixology',
-                             'content' => 'My first blog post',
-                             'date' => '04/10/2022',
-                             'author' => 'Chelsea Johnson');
+                             'content' => 'Crafting delicious and fun drinks!',
+                             'date' => '09/27/2022',
+                             'author' => 'BeYouDesign');
         
         return $postDetails;
     }
