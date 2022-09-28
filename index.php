@@ -38,6 +38,23 @@
         // get this data from a database instead of hardcoding it
         $postTitles = array("The Art of Mixology", "Perfecting your Counts", "Balance is Key");
         return $postTitles;
+
+        <?php
+    function getPostDetailsFromDatabase(){
+            //Get the post title
+            $postTitle = rawurldecode($_GET"The Art of Mixology");
+    
+            include_once 'includes2/dbh.inc.php'; //Connect to the database
+    
+            //Get the post that matches the postTitle
+            $sql = "SELECT * FROM posts WHERE title='" .$postTitle ."'";
+            $result = mysqli_query($conn,$sql);
+    
+            //Get the first row from the result as an associative array
+            $postDetails = mysqli_fetch_assoc($result);
+            return $postDetails;
+        }
+        ?>
     }
 ?>
     <main>
