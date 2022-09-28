@@ -28,26 +28,23 @@
 </nav>
     
     
-
-
 <?php
-    function getPostDetailsFromDatabase(){
-        //Get the post title
-        $postTitle = rawurldecode($_GET"The Art of Mixology");
-
-        include_once 'includes2/dbh.inc.php'; //Connect to the database
-
-        //Get the post that matches the postTitle
-        $sql = "SELECT * FROM posts WHERE title='" .$postTitle ."'";
-        $result = mysqli_query($conn,$sql);
-
-        //Get the first row from the result as an associative array
-        $postDetails = mysqli_fetch_assoc($result);
+    function getPostDetailsFromDatabase() {
+        // TO DO in Module 4
+        // get this data from a database instead of hardcoding it
+        $postDetails = array('title' => 'The Art of Mixology',
+                             'content' => 'Crafting delicious and fun drinks!',
+                             'date' => '09/27/2022',
+                             'author' => 'BeYouDesign');
+        
         return $postDetails;
     }
-    ?>
+?>
 
-
+<?php
+    // Post details contains all the data to generate the blog from
+    $postDetails = getPostDetailsFromDatabase();
+?>
 <h2> <?php echo $postDetails["title"]; ?> </h2>
 <h3> <?php echo $postDetails["author"]; ?> </h3>
 <h4> <?php echo $postDetails["date"]; ?> </h4>
