@@ -55,6 +55,7 @@
         $postDetails = mysqli_fetch_assoc($result);
         return $postDetails;
     }
+    ?>
 
 <?php
     // Post details contains all the data to generate the blog from
@@ -64,7 +65,7 @@
 <h3> <?php echo $postDetails["author"]; ?> </h3>
 <h4> <?php echo $postDetails["date"]; ?> </h4>
 <p> <?php echo $postDetails["content"]; ?> </p>
-<
+
 
     <main>
        
