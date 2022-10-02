@@ -35,6 +35,7 @@
         $postTitles = array("The Art of Mixology", "Perfecting your Counts", "Balance is Key");
         return $postTitles;
 ?>
+}
 
     <main>
         
