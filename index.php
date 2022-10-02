@@ -1,8 +1,4 @@
 <?php
-    include_once 'includes2/dbh.inc.php';
-?>
-
-<?php
     include "header.php";
     include "navigation.php";
     include "footer.php";
@@ -23,11 +19,7 @@
     <div id="header">
         <h1>Chelsea's Bartending Blog</h1>
  
-<?php
-    $sql = "SELECT * FROM posts;";
-    $result = mysqli_query($conn, $sql);
-    $resultCheck = mysqli_num_rows($result);
-?>
+
 
 <nav>
     <div id="navigation">
@@ -40,9 +32,16 @@
     
 <?php
     function getPostTitlesFromDatabase() {
-        // TO DO in Module 4
-        // get this data from a database instead of hardcoding it
+        // Get all the post titles from the posts table
+        include_once 'includes2/dbh.inc.php';
+        $sql = "SELECT title FROM posts";
+        $result = mysqli_query($conn, $sql);
+
+        // Get each result row as an assoc array, then add title to $postTitles
         $postTitles = array("The Art of Mixology", "Perfecting your Counts", "Balance is Key");
+        while($row = mysqli_fetch_assoc($result)){
+            array_push($postTitles, $row['title']);
+        } 
         return $postTitles;
        
     }
