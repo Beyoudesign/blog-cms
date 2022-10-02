@@ -29,17 +29,6 @@
     
     
 <?php
-    function getPostDetailsFromDatabase() {
-        // TO DO in Module 4
-        // get this data from a database instead of hardcoding it
-        $postDetails = array('title' => 'The Art of Mixology',
-                             'content' => 'Crafting delicious and fun drinks!',
-                             'date' => '09/27/2022',
-                             'author' => 'BeYouDesign');
-        
-        return $postDetails;
-    }
-
     function getPostDetailsFromDatabase(){
         //Get the post title
         $postTitle = rawurldecode($_GET["title"]);
