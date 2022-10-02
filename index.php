@@ -22,7 +22,13 @@
 <body>
     <div id="header">
         <h1>Chelsea's Bartending Blog</h1>
-    
+ 
+<?php
+    $sql = "SELECT * FROM posts;";
+    $result = mysqli_query($conn, $sql);
+    $resultCheck = mysqli_num_rows($result);
+?>
+
 <nav>
     <div id="navigation">
     <a href="index.php">HOME</a>
