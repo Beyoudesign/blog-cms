@@ -52,9 +52,7 @@
         
         <ul>
             <?php
-            $postTitles = getPostTitlesFromDatabase();
-            
-            foreach($postTitles as $postTitle) {
+            $postTitles = getPostTitlesFromDatabase(); {
                      echo "<li><a href='post.php?title=" . $postTitle . "'>" . $postTitle . 
                     "</a></li>";
                 }
