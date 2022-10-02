@@ -39,6 +39,21 @@
         
         return $postDetails;
     }
+
+    function getPostDetailsFromDatabase(){
+        //Get the post title
+        $postTitle = rawurldecode($_GET["title"]);
+
+        //Get the post that matches the postTitle
+        include_once 'includes2/dbh.inc.php';
+        $sql = "SELECT * FROM posts WHERE title='" .$postTitle."'";
+        $result = mysqli_query($conn, $sql);
+
+        //Get the first row from the result as an associative array
+        $postDetails = mysqli_fetch_assoc($result);
+        return $postDetails;
+
+    }
 ?>
 
 <?php
@@ -49,6 +64,8 @@
 <h3> <?php echo $postDetails["author"]; ?> </h3>
 <h4> <?php echo $postDetails["date"]; ?> </h4>
 <p> <?php echo $postDetails["content"]; ?> </p>
+
+
 
 
     <main>
