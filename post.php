@@ -31,7 +31,7 @@
 <?php
     function getPostDetailsFromDatabase(){
         //Get the post title
-        $postTitle = rawurldecode($_GET["The Art of Mixology"]);
+        $postDetails = rawurldecode($_GET["The Art of Mixology"]);
 
         //Get the post that matches the postTitle
         include_once 'includes2/dbh.inc.php';
