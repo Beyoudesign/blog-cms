@@ -42,7 +42,7 @@
         $postDetails = mysqli_fetch_assoc($result);
         return $postDetails;
     
-        $postDetail = array('title' => 'The Art of Mixology',
+        $postDetails = array('title' => 'The Art of Mixology',
                             'content' => 'Crafting delicious and fun drinks!',
                             'date' => '09/28/2022',
                             'author' => 'BeYouDesign');
