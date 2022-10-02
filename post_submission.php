@@ -17,6 +17,10 @@
 <body>
     <div id="header">
         <h1>Chelsea's Bartending Blog</h1>
+
+    <form action="submit-post.php" method="POST">
+        
+    </form>
     
 <nav>
     <div id="navigation">
