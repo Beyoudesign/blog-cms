@@ -64,8 +64,6 @@
 
 
     <main>
-        <h2>"Perfecting your Counts"</h2>
-        
        
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis purus sit amet volutpat consequat mauris nunc congue nisi. Pretium fusce id velit ut. Ultrices tincidunt arcu non sodales neque sodales ut. Tristique senectus et netus et malesuada fames ac turpis egestas. Diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Metus dictum at tempor commodo ullamcorper a. Sapien eget mi proin sed libero enim sed faucibus turpis. Nisl pretium fusce id velit ut tortor pretium viverra. Quam viverra orci sagittis eu volutpat. Suscipit adipiscing bibendum est ultricies integer quis auctor. In fermentum posuere urna nec tincidunt praesent semper. Libero volutpat sed cras ornare arcu. Suspendisse ultrices gravida dictum fusce ut. Pharetra et ultrices neque ornare aenean. Iaculis eu non diam phasellus vestibulum lorem sed. Facilisis gravida neque convallis a cras semper auctor neque vitae. Venenatis a condimentum vitae sapien pellentesque.
 
