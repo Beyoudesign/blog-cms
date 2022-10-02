@@ -20,9 +20,8 @@
         <h1>Chelsea's Bartending Blog</h1>
 
     <?php
-        $sql = "SELECT * FROM posts;";
+        $sql = "INSERT INTO posts (user_first, user_last, user_email, user_uid, user_pwd) VALUES ('Chelsea', 'Johnson', 'cjohns@lesley.edu', 'Admin', 'test123');";
         $result = mysqli_query($conn, $sql);
-        $resultCheck = mysqli_num_rows($result);
     ?>
 
  
