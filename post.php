@@ -31,11 +31,11 @@
 <?php
     function getPostDetailsFromDatabase(){
         //Get the post title
-        $postTitle = rawurldecode($_GET["title"]);
+        $postTitle = rawurldecode($_GET["The Art of Mixology"]);
 
         //Get the post that matches the postTitle
         include_once 'includes2/dbh.inc.php';
-        $sql = "SELECT title FROM posts WHERE title='" .$postTitle."'";
+        $sql = "SELECT * FROM posts WHERE title='" .$postTitle."'";
         $result = mysqli_query($conn, $sql);
 
         //Get the first row from the result as an associative array
