@@ -42,6 +42,13 @@
         include_once 'includes2/dbh.inc.php';
         $sql = "SELECT title FROM posts";
         $result = mysqli_query($conn, $sql);
+        
+        //Get each result row as an assoc array, then add title to $postTitles
+        $postTitles = array("The Art of Mixology", "Perfecting your Counts", "Balance is Key");
+        while($row = mysqli_fetch_assoc($result)){
+            array_push($postTitles,$row['title']);
+        }
+        return $postTitles;
 
     }
 
@@ -52,7 +59,9 @@
         
         <ul>
             <?php
-            $postTitles = getPostTitlesFromDatabase(); {
+            $postTitles = getPostTitlesFromDatabase();
+            
+            foreach($postTitles as $postTitle) {
                      echo "<li><a href='post.php?title=" . $postTitle . "'>" . $postTitle . 
                     "</a></li>";
                 }
