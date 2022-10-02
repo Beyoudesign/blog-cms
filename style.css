@@ -1,6 +1,7 @@
 body {
     background: #fff4f4;
     font-family: "Avenir", "sans-serif";
+    overflow: scroll;
 }
 
 #header {
