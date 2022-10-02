@@ -36,17 +36,18 @@
     
 <?php
     function getPostTitlesFromDatabase() {
-        // Get the post title
-        $postTitle = rawurldecode($_GET["title"]);
-        
-        //Get the post that matches the postTitle
+        // Get all the post titles from the posts table
         include_once 'includes2/dbh.inc.php';
-        $sql = "SELECT * FROM posts WHERE title='" .$postTitle."'";
+        $sql = "SELECT title FROM posts";
         $result = mysqli_query($conn, $sql);
+        
+        //Get each result row as an assoc array, then add title to $postTitles
+        $postTitles = array();
+        while($row = mysqli_fetch_assoc($result)){
+            array_push($postTitles,$row['title']);
+        }
+        return $postTitles;
 
-        //Get the first row from the result as an associative array
-        $postDetails = mysqli_fetch_assoc($result);
-        return $postDetails;
     }
 
 
