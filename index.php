@@ -18,6 +18,7 @@
 <body>
     <div id="header">
         <h1>Chelsea's Bartending Blog</h1>
+        
 
     <?php
         $sql = "INSERT INTO posts (user_first, user_last, user_email, user_uid, user_pwd) VALUES ('Chelsea', 'Johnson', 'cjohns@lesley.edu', 'Admin', 'test123');";
