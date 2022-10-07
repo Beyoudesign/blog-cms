@@ -1,0 +1,133 @@
+body {
+    background: #fff4f4;
+    font-family: "Avenir", "sans-serif";
+}
+
+#header {
+    background: #fa2e7c;
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+}
+
+h1{
+    font-family: "Roboto condensed";
+    font-size: 33px;
+    font-style: regular;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 6px;
+    text-align: left;
+    margin-left: 17px;
+    line-height: 95px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: auto;
+    margin-left: 15px;
+    margin-bottom: 8px;
+    line-height: 90px;
+}
+
+h3 {
+    font-size: 16px;
+    font-style: italic;
+    margin-left: 15px;
+    margin-top: -30px;
+    margin-bottom: 8px;
+}
+
+h4 {
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 15px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+p {
+    margin-left: 15px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-right: 35px;
+    text-align: justify;
+
+}
+
+#footer {
+    background: #fa2e7c;
+    width: 100%;
+    height: 5%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    text-align: center;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+#navigation {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: right;
+    margin-right: 10px;
+    margin: 30px;
+}
+
+ul {
+    list-style-type: none; /* removes bullets */
+    margin-top: 30px;
+    margin-left: 30px;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+
+
+
+input {
+    width: 60%;
+    padding: 12px 20px;
+    margin-left: 15px;
+    display: inline-block;
+    border: 1px solid #444444;
+    border-radius: 4px;
+}
+
+label {
+    line-height: 30px;
+    display: block;
+    margin-left: 15px;
+}
+
+textarea {
+    line-height: 10px;
+    display: block;
+    margin-left: 15px;
+    border: 1px solid #444444;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    width: 60%;
+    padding: 12px 20px;
+    margin-left: 15px;
+    display: inline-block;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 16px;
+
+}
+
+
+a:link{text-decoration: none; color: #000000; margin: 30px;/*link that hasn't been visited*/}
+a:visited{text-decoration: none; color: #2038ef; margin: 30px;/*once page is visited*/}
+a:active{text-decoration: underline; color: #ffffff; margin: 30px;/*link that is selected*/}
+a:hover{text-decoration: underline; color: #ffffff; margin: 30px;/*when mouse is over link*/}
+
+
+
