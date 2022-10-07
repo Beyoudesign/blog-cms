@@ -17,7 +17,7 @@
 
 <body>
     <div id="header">
-        <h1>Chelsea's</h1>
+        <h1></h1>
  
 
 
