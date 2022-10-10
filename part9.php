@@ -32,10 +32,10 @@
     echo $fullName;
     echo "<h1>Hello World</h1>"
 
-    if($isSettled) {
-        echo $fullName . " is settled.";
+    if($isSettled)  {
+        echo $fullName . "is settled.";
     } else {
-        echo $fullName . " is not settled.";
+        echo $fullName . "is not settled.";
     }
 
     foreach($childrenNames as $childName) {
