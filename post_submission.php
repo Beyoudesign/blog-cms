@@ -1,9 +1,3 @@
-<?php
-    include "header.php";
-    include "navigation.php";
-    include "footer.php";
-?>
-
 <html>
 
 <head>
@@ -17,15 +11,14 @@
 <body>
     <div id="header">
         <h1>Chelsea's Bartending Blog</h1>
-    
-<nav>
-    <div id="navigation">
-    <a href="index.php">HOME</a>
-    <a href="post.php">BLOGS</a>
-    <a href="post_submission.php">NEW BLOG POSTS</a>
-</div>
-</nav>
     </div>
+
+<?php
+    include "header.php";
+    include "navigation.php";
+    include "footer.php";
+?>
+  
 
     <div id="subheading">
         <h2>Create a new blog post</h2>
@@ -50,8 +43,6 @@
 
     </div>
 
-    <div id="footer">
-        Site built using Apache, PHP, MySQL, VSC, HTML, CSS by beyoudesign
-    </div>
+    
 </body>
 </html>

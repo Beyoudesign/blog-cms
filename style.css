@@ -1,6 +1,7 @@
 body {
     background: #fff4f4;
     font-family: "Avenir", "sans-serif";
+    overflow: visible;
 }
 
 #header {
@@ -46,14 +47,14 @@ h4 {
     margin-bottom: 50px;
 }
 
-p {
+h5 {
+    font-size: 16px;
+    font-style: italic;
     margin-left: 15px;
-    margin-top: 0px;
-    margin-bottom: 50px;
-    margin-right: 35px;
-    text-align: justify;
-
+    margin-top: -30px;
+    margin-bottom: 8px;
 }
+
 
 #footer {
     background: #fa2e7c;
