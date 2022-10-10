@@ -25,6 +25,7 @@
     <a href="post.php">BLOGS</a>
     <a href="post_submission.php">NEW BLOG POSTS</a>
 </div>
+
 </nav>
     
     
