@@ -19,13 +19,13 @@
     include "footer.php";
 ?>
 
-<div id="subheading">
+<!-- <div id="subheading">
         <h2>The Art of Mixology</h2>
         <h3>Chelsea Johnson</h3>
         <h4>10/10/2022</h4>
         <h5>Crafting delicious and fun drinks!</h5>
         
-    </div>
+    </div> -->
 
 
 

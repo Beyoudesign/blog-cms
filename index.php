@@ -29,9 +29,9 @@
         
         //Get each result row as an assoc array, then add title to $postTitles
         $postTitles = array("The Art of Mixology", "Perfecting your Counts", "Balance is Key");
-        while($row = mysqli_fetch_assoc($result)){
-            array_push($postTitles,$row['title']);
-        }
+        // while($row = mysqli_fetch_assoc($result)){
+        //     array_push($postTitles,$row['title']);
+        // }
         return $postTitles;
 
     }
