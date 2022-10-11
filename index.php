@@ -33,10 +33,6 @@
         }
         return $postTitles;
 
-        foreach($postTitles as $postTitle) {
-                     echo "<li><a href='post.php?title=" . $postTitle . "'>" . $postTitle . 
-                    "</a></li>";
-
     }
 
 
@@ -50,7 +46,9 @@
             <?php
             $postTitles = getPostTitlesFromDatabase();
             
-            
+            foreach($postTitles as $postTitle) {
+                     echo "<li><a href='post.php?title=" . $postTitle . "'>" . $postTitle . 
+                    "</a></li>";
                 }
             ?>
 
