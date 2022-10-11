@@ -18,9 +18,7 @@
     include "navigation.php";
     include "footer.php";
 ?>
-     
-            
-<ul>         
+    
 <?php
     function getPostTitlesFromDatabase() {
         // Get all the post titles from the posts table
@@ -36,17 +34,34 @@
         return $postTitles;
 
         foreach($postTitles as $postTitle) {
-            echo "<li><a href='post.php?title=" . $postTitle . "'>" . $postTitle . 
-           "</a></li>";
+                     echo "<li><a href='post.php?title=" . $postTitle . "'>" . $postTitle . 
+                    "</a></li>";
 
     }
-}
+
+
+
 ?>
 
-</ul> 
 
+    <main>
+        
+        <ul>
+            <?php
+            $postTitles = getPostTitlesFromDatabase();
+            
+            
+                }
+            ?>
 
-   
+         
+            
+        
+        </ul>
+    
+
+    </main>
+
     
 </body>
 </html>
