@@ -13,19 +13,25 @@
         <h1>Chelsea's Bartending Blog</h1>
     </div>
 
+
 <?php
     include "header.php";
     include "navigation.php";
-    include "footer.php";
+    
 ?>
+
+
+    
+
   
 
     <div id="subheading">
         <h2>Create a new blog post</h2>
-    </div>
 
-    <main>
-        <form action="/post_submission.php">
+   
+
+    
+        <form action="submit-post.php" method="POST">
             <label for="title">Title:</label>
             <input type="text" id="title" name="title"><br><br>
             <label for="author">Author:</label>
@@ -35,13 +41,17 @@
             <label for="content">Content:</label>
             <textarea id="content" name="New Blog" rows="10" cols="110"></textarea><br><br>
             <input type="submit" value="Submit">
+            <button type="submit" name="Submit">Blog Post</button>
         
 
         </form>
 
-        </main>
+       
 
     </div>
+
+
+
 
     
 </body>

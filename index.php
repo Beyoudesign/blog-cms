@@ -19,7 +19,11 @@
     include "footer.php";
     
 ?>
-    
+
+
+
+
+
 <?php
     function getPostTitlesFromDatabase() {
         // Get all the post titles from the posts table
@@ -57,6 +61,7 @@
             
         
         </ul>
+
     
 
     </main>
