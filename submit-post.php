@@ -6,7 +6,7 @@
    $date = $_POST["date"];
 
    // insert the data with the sql query
-   include_once 'includes2/db_connect.php';
+   include_once './includes2/dbh.inc.php';
    $sql="INSERT INTO posts (title, content, author, date) VALUES ('" .     
        $title . "','" .  $content . "','" . $author . "','" . $date . "')";
    $result = mysqli_query($conn, $sql);
