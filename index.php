@@ -13,7 +13,7 @@
         <h1>Chelsea's Bartending Blog</h1>
     </div>
 
-    <?php
+<?php
     include "header.php";
     include "navigation.php";
     include "footer.php";
@@ -43,6 +43,8 @@
 
 
 ?>
+
+
 
 
     <main>
