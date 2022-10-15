@@ -1,6 +1,18 @@
-<html>
+<!DOCTYPE html>
+
 
 <head>
+
+<script src="hello.js"></script>
+
+    
+
+   
+
+
+
+
+
 
 <title>
     Chelsea Johnson
@@ -19,6 +31,8 @@
     include "footer.php";
     
 ?>
+
+<button>"Click Me!"</button>
 
 
 
