@@ -17,6 +17,7 @@
     include "header.php";
     include "navigation.php";
     include "footer.php";
+    include "head.php";
 ?>
 
 <!-- <div id="subheading">
