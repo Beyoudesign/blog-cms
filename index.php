@@ -1,27 +1,10 @@
 <!DOCTYPE html>
 
 
-<head>
-
-<script src="hello.js"></script>
-<script src="script.js"></script>
-<script src="list.js"></script>
-
-
-    
-
-   
+<html>
 
 
 
-
-
-
-<title>
-    Chelsea Johnson
-</title>
-<link rel="stylesheet" type="text/css" href="style.css"/>
-</head>
 
 <body>
     <div id="header">
@@ -35,6 +18,21 @@
     include "head.php";
     
 ?>
+
+
+<div id="sortable-blog-list">
+    <input class="search" placeholder="Search" />
+    <button class="sort" data-sort="title">Sort</button>
+    <ul class="list">
+        <?php
+            $postTitles = getPostTitlesFromDatabase();
+            foreach($postTitles as $postTitle) {
+                echo "<li><a href='post.php?title=" . $postTitle 
+                    . "' class='title'>" . $postTitle . "</a></li>";
+            }
+        ?>
+    </ul>
+</div>
 
 <button onclick="revealMessage()">Click Me!</button>
 <p id="hiddenMessage" style="display:none">You are AWESOME!</P>
