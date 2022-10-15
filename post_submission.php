@@ -52,6 +52,8 @@
 
         </form> -->
 
+      
+
         <form action="submit-post.php" method="POST">
             <input type="text" name="title" placeholder="Title">
             <br><br>
@@ -62,9 +64,12 @@
             <input type="text" name="content" placeholder="Content">
             <br><br>
             <button type="submit" name="Submit">Blog Post</button>
-            <br><br>
+            <div id="editor"></div>
+            
 
     </form>
+
+    
 
        
 
