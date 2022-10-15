@@ -4,6 +4,9 @@
 <head>
 
 <script src="hello.js"></script>
+<script src="script.js"></script>
+<script src="list.js"></script>
+
 
     
 
@@ -36,7 +39,7 @@
 <button onclick="revealMessage()">Click Me!</button>
 <p id="hiddenMessage" style="display:none">You are AWESOME!</P>
 
-
+<button>Alert me!</button>
 
 
 
