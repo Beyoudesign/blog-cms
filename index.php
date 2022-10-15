@@ -32,7 +32,8 @@
     
 ?>
 
-<button>"Click Me!"</button>
+<button onclick="revealMessage()">Click Me!</button>
+<p id="hiddenMessage" style="display:none">You are AWESOME!</P>
 
 
 
